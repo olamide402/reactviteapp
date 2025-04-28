@@ -1,0 +1,313 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.home{
+  width: 100%;
+  height: 100vh;
+  background: wheat;
+}
+
+.home h1{
+  color: brown;
+  text-align: center;
+  position: relative;
+  font-size: 45px;
+  font-weight: bold;
+  top: 100px;
+}
+.home p{
+  width: 500px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  left: 430px;
+
+}
+
+.home button{
+  width: 250px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  color: brown;
+  position: relative;
+  font-size: 15px;
+  top: 150px;
+  left: 550px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+}
+
+.about{
+  width: 100%;
+  height: 100vh;
+  background: brown;
+}
+
+.about h1{
+  color: wheat;
+  text-align: center;
+  position: relative;
+  font-size: 45px;
+  font-weight: bold;
+  top: 100px;
+}
+
+.about p{
+  width: 500px;
+  color: white;
+  
+  text-align: center;
+  position: relative;
+  top: 120px;
+  left: 430px;
+}
+
+
+
+
+
+
+.services{
+  width: 100%;
+  height: 100vh;
+  background: wheat;
+}
+
+.services h1{
+  color: brown;
+  text-align: center;
+  position: relative;
+  font-size: 45px;
+  font-weight: bold;
+  top: 100px;
+}
+
+.services p{
+  width: 500px;
+  color: black; 
+  text-align: center;
+  position: relative;
+  top: 120px;
+  left: 430px;
+}
+
+
+
+
+
+.contact{
+  width: 100%;
+  height: 100vh;
+  background: brown;
+}
+
+.contact h1{
+  color: wheat;
+  text-align: center;
+  position: relative;
+  font-size: 45px;
+  font-weight: bold;
+  top: 100px;
+}
+
+.contact p{
+  width: 500px;
+  color: white;
+  
+  text-align: center;
+  position: relative;
+  top: 120px;
+  left: 430px;
+}
+
+
+
+
+
+.error{
+  width: 100%;
+  height: 100vh;
+  background: white;
+}
+
+.error h1{
+  color: black;
+  text-align: center;
+  position: relative;
+  font-size: 45px;
+  font-weight: bold;
+  top: 100px;
+}
+
+.error button{
+  width: 250px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  color: black;
+  position: relative;
+  font-size: 15px;
+  top: 150px;
+  left: 550px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px brown;
+}
+
+.footer{
+  min-width: 100%;
+  height: 80px;
+  background:  brown;
+}
+
+.footer p{
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+
+
+
+.navbar{
+  width: 100%;
+  height: 80px;
+  background: black;
+  
+}
+/* .navbar h1{
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 80px;
+  font-size: 20px;
+} */
+
+
+
+.link{
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+  left: 800px;
+  font-weight: bold;
+  
+}
+
+
+.search{
+  min-width: 100%;
+  min-height: 100vh;
+  background: blue;
+}
+
+.search input{
+  width: 800px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 30px;
+  background: transparent;
+  text-align: center;
+}
+
+.jsone{
+  min-width: 100%;
+  height: 100vh;
+  background: blue;
+}
+
+.jsone h2{
+  color: white;
+  font-size: 45px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.jsone button{
+  width: 250px;
+  height: 40px;
+  border: none;
+  box-shadow: 2px 2px 2px blue;
+  background: transparent;
+  color: blue;
+  position: relative;
+  top: 150px;
+  left: 520px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navbar .mode{
+  color: white;
+  cursor: pointer;
+  font-size: 40px;
+  position: relative;
+  left: 600px;
+}
+.navbar button{
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  color: black;
+}
+
+.loginform{
+  min-width: 100%;
+  min-height: 100vh;
+  background: blue;
+}
+
+.loginform form{
+  width: 600px;
+  height: 300px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.loginform form input{
+  width: 80%;
+  height: 45px;
+  margin: 10px;
+  background: white;
+  border: 3px solid silver;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  font-size: 17px;
+  text-align: center;
+}
+
+::placeholder{
+  text-align: center;
+  color: silver;
+}
+
+.loginform  button{
+  width: 200px;
+  height: 45px;
+  background: blue;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  top: -40px;
+  left:400px ;
+}
